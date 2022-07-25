@@ -1,6 +1,7 @@
 # Project description
 <br>
-### Prerequisites
+### Prerequisites 
+<br>
 To be able to compile the project you need: <br>
 Truffle v5.5.23 <br>
 Ganache v7.3.2 <br>
@@ -21,6 +22,7 @@ Or: <br>
 yarn install <br>
 <br>
 ### Opening the project
+<br>
 Open Ganache, if your ganache port is not 7545 go: <br>
 cd ./chain <br>
 Then open truffle-config.js <br>
@@ -41,6 +43,7 @@ or <br>
 yarn start <br>
 <br>
 ### About the project
+<br>
 This project uses Metamask as provider, even though it should work with other providers. If you do not have metamask installed, you can install it via clicking the button.
 After you access the metamask, choose an account from ganache, paste it's private key to metamask login. <br>
 Then change your network to HTTP://127.0.0.1:7545 (If you have different port instead :7545 use :YOUR_PORT)<br>
@@ -49,6 +52,7 @@ Eventually, you can use login button. After you logged in, you can write another
 If you want to change account, remove connected sites from metamask and refresh the page.
 
 ### Scenerios
+<br>
 Wrong initialization of contract address in .env:<br>
 After clicking connect button address will show up but not the balance<br>
 <br>
