@@ -47,3 +47,28 @@ Then change your network to HTTP://127.0.0.1:7545 (If you have different port in
 Eventually, you can use login button. After you logged in, you can write another public address from ganache in the right side, and an amount to send.<br>
 If you want to change account, remove connected sites from metamask and refresh the page.
 
+### Scenerios
+Wrong initialization of contract address in .env:<br>
+After clicking connect button address will show up but not the balance<br>
+<br>
+Wrong initialization of metamask:<br>
+After clicking connect button address will show up but not any kind of balance<br>
+<br>
+Ganache network issues:<br>
+Network error will appear below transfer button<br>
+<br>
+No metamask installation:<br>
+Install metamask button will appear<br>
+<br>
+Amount > balance transfer:<br>
+Error will appear below the transfer button<br>
+<br>
+Wrong address:<br>
+Error will appear below the transfer button<br>
+<br>
+A valid address but not in the ganache network:<br>
+Nothing will happen. An error occurs.<br>
+<br>
+Correct input with true initialization:<br>
+KTC will be send to the account stated<br>
+
