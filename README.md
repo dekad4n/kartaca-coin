@@ -1,5 +1,6 @@
 # Project description
 <br>
+
 ### Prerequisites 
 <br>
 To be able to compile the project you need: <br>
@@ -8,6 +9,7 @@ Ganache v7.3.2 <br>
 Solidity v0.5.16 (solc-js) <br>
 React ^18.2.0 <br>
 <br>
+
 ### Installation 
 <br>
 cd ./chain <br>
@@ -16,11 +18,13 @@ npm install <br>
 cd .. <br>
 <br>
 cd ./kartaca-coin-app <br>
+
 Preffered: <br>
 npm install <br>
 Or: <br>
 yarn install <br>
 <br>
+
 ### Opening the project
 <br>
 Open Ganache, if your ganache port is not 7545 go: <br>
@@ -42,6 +46,7 @@ npm start <br>
 or <br>
 yarn start <br>
 <br>
+
 ### About the project
 <br>
 This project uses Metamask as provider, even though it should work with other providers. If you do not have metamask installed, you can install it via clicking the button.
