@@ -7,7 +7,8 @@ Ganache v7.3.2 <br>
 Solidity v0.5.16 (solc-js) <br>
 React ^18.2.0 <br>
 <br>
-### Installation <br>
+### Installation 
+<br>
 cd ./chain <br>
 npm install <br>
 <br>
