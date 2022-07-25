@@ -1,5 +1,5 @@
 # Project description
-<br><br>
+<br>
 ### Prerequisites
 To be able to compile the project you need: <br>
 Truffle v5.5.23 <br>
