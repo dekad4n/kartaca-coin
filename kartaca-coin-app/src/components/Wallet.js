@@ -103,7 +103,11 @@ const Wallet = () =>
         }
     }
 
+    const installMetamask = () =>{
+        console.log('here')
+        window.open('https://metamask.io/download/','_blank')
 
+    }
     return (<div className='content-container'>
         <div className='half-content lhs'>
             <h2>KartacaCoin ERC-20 Wallet</h2>
@@ -116,7 +120,7 @@ const Wallet = () =>
             }
             {
                 !hasProvider && 
-                <button>
+                <button  onClick={installMetamask}>
                     Install metamask
                     <img src={MetamaskIcon} alt="Metamask icon" />
                 </button>
