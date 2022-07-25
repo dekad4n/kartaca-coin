@@ -8,7 +8,7 @@ Solidity v0.5.16 (solc-js) <br>
 React ^18.2.0 <br>
 <br>
 ### Installation
-cd ./contracts <br>
+cd ./chain <br>
 npm install <br>
 <br>
 cd .. <br>
@@ -21,12 +21,12 @@ yarn install <br>
 <br>
 ### Opening the project
 Open Ganache, if your ganache port is not 7545 go: <br>
-cd ./contracts <br>
+cd ./chain <br>
 Then open truffle-config.js <br>
 Change port to your ganache port <br>
 Save <br>
 <br>
-After save, run the commands in ./contracts: <br>
+After save, run the commands in ./chain: <br>
 <--- To test first run truffle test ---> <br>
 truffle compile <br>
 truffle migrate <br>
