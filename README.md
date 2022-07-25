@@ -42,7 +42,7 @@ yarn start <br>
 ### About the project
 This project uses Metamask as provider, even though it should work with other providers. If you do not have metamask installed, you can install it via clicking the button.
 After you access the metamask, choose an account from ganache, paste it's private key to metamask login. <br>
-Then change your network to HTTP://127.0.0.1:7545 <br>
+Then change your network to HTTP://127.0.0.1:7545 (If you have different port instead :7545 use :YOUR_PORT)<br>
 <br>
 Eventually, you can use login button. After you logged in, you can write another public address from ganache in the right side, and an amount to send.<br>
 If you want to change account, remove connected sites from metamask and refresh the page.
