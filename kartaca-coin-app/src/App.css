@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+.content-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100%;
+}
+.half-content{
+  display: flex;
+  height: 100%;
+  margin-top: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lhs{
+  background-color: rgba(176, 223, 229, 0.3);
+}
+.lhs button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px 25px;
+  border: 1px solid transparent;
+  transition: 0.1s all ease-in-out;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.lhs img {
+  width: 16px;
+  padding-left: 5px;
+  height: 16px;
+}
+.lhs button:hover {
+  opacity: 0.7;
+}
+.transfer-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.transfer-form input{
+  width: 100%;
+  border: 2px solid rgba(176, 223, 229, 0.9);
+  border-radius: 5px;
+  padding: 3px 7px;
+}
+
+.transfer-form button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px 25px;
+  border: 1px solid transparent;
+  transition: 0.1s all ease-in-out;
+  background-color: rgba(176, 223, 229, 0.9);
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.transfer-form button:hover {
+  
+  opacity: 0.7;
+}
